@@ -25,7 +25,7 @@ int main()
 		printf("Valor de z(x) = %1f\n",funciones[2](x));
         printf("\n");
 	}
-	return 0
+	return 0;
 } 
 
 //Función para evaluar f(x)
