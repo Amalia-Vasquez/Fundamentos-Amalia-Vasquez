@@ -5,7 +5,7 @@ int main()
     char texto[80];
     int cont, cont2, contadorVocales = 0;
 
-    printf("Escribe 20 lineas de texto max 80 caracter por linea \n");
+    printf("Escribe 20 lineas de texto maximo 80 caracter por linea \n");
 
     for (cont = 0; cont < 20; cont++) 
     {
