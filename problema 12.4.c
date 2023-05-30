@@ -1,5 +1,5 @@
 /*Hacer un programa con el que se pueda evaluar las funciones f(x), g(x) y z(x) para todos los valores de x en 
-el intervalo 0<=x<3.5 con incremento de 0.2 Escribir un array de punteros a funcion. en lenguaje c y con comentarios
+el intervalo 0<=x<3.5 con incremento de 0.2 Escribir un array de punteros a funcion.
 Las funciones son las siguientes:
 f(x)= 3*e^x-2x
 g(x)=-x*sin(x)+1.5
@@ -25,7 +25,7 @@ int main()
 		printf("Valor de z(x) = %1f\n",funciones[2](x));
         printf("\n");
 	}
-	return 0; 
+	return 0
 } 
 
 //Función para evaluar f(x)
