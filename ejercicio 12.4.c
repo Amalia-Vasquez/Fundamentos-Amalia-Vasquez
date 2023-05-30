@@ -17,9 +17,11 @@ int main()
     printf("Mostrar contenido de A usando puntero a puntero: \n");
 
     // Mostrar el contenido de la matriz A usando puntero a puntero
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 3; j++)  {
-            printf("%d", ptr[i][j]);
+    for (int i = 0; i < 3; i++) 
+    {
+        for (int j = 0; j < 3; j++)  
+        {
+            printf("%d ", ptr[i][j]);
         }
         printf("\n");
     }
